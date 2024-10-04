@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RLS_PCBA")(type "KiCad")(uri "${KIPRJMOD}/RLS_PCBA.kicad_sym")(options "")(descr ""))
+)

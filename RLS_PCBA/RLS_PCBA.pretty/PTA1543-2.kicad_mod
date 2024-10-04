@@ -1,0 +1,229 @@
+(footprint "PTA1543-2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -27.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cb8cf93c-ef7a-4f0b-a5aa-45f0780732bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTA1543-2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dea27c84-0693-4b06-a904-a9f24363e3d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PTA1543-2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60093c29-11e9-4167-8780-e401a5b46895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18dee19a-1afb-4ac8-bf2d-007730a56ba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e57f11c5-78d8-4e5a-8c55-9b5fbfa8c971")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -30 -4.5)
+		(end -30 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c81072ac-8dc6-4977-a064-e6110a71f010")
+	)
+	(fp_line
+		(start -30 -4.5)
+		(end 30 -4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97685ebf-515a-4b5f-ab39-12da9366a7d6")
+	)
+	(fp_line
+		(start -30 4.5)
+		(end 30 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71de10b3-5fb0-4079-8b1d-47a1dd39dfe5")
+	)
+	(fp_line
+		(start 30 -4.5)
+		(end 30 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1124652a-4825-4110-8841-15fb41549e86")
+	)
+	(fp_line
+		(start -30 -4.5)
+		(end -30 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d36a00c8-6e70-4536-88ea-0bfe2d9e23f0")
+	)
+	(fp_line
+		(start -30 -4.5)
+		(end 30 -4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "28d03b8c-19dc-4095-a218-fe39df9d40f9")
+	)
+	(fp_line
+		(start -30 4.5)
+		(end 30 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "35774b27-710e-4024-8106-752a81e61018")
+	)
+	(fp_line
+		(start 30 -4.5)
+		(end 30 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "03caa26e-d1df-4925-8b48-91c6d4752db7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9615583f-256e-463d-ac3c-29328bb470d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -25.1 4.25)
+		(size 2.5 2.5)
+		(drill 1.9)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "ace4977f-b60c-4ab1-b276-2738a5d10038")
+	)
+	(pad "" thru_hole circle
+		(at -23.9 -4.25)
+		(size 2.5 2.5)
+		(drill 1.9)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "13350f4a-ef37-40b9-b1db-ec2d3fdecff3")
+	)
+	(pad "" thru_hole circle
+		(at 23.9 -4.25)
+		(size 2.5 2.5)
+		(drill 1.9)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "c8938438-30e6-4814-98ed-08a85aafafa3")
+	)
+	(pad "" thru_hole circle
+		(at 25.1 4.25)
+		(size 2.5 2.5)
+		(drill 1.9)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "cde86de1-79af-4603-8397-d797715c970b")
+	)
+	(pad "1" thru_hole circle
+		(at -29.25 -1.75)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "3ca676ea-9006-4d75-b14e-161d404ea86d")
+	)
+	(pad "2" thru_hole circle
+		(at -29.25 1.75)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "0d546a58-5d36-4a83-a100-543a4eecfd0f")
+	)
+	(pad "3" thru_hole circle
+		(at 29.25 -1.75)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "6464e824-6fe7-4e15-a2da-140f92dcb7a3")
+	)
+	(model "C:/Users/aidan/Downloads/PTA4543-2015DPB103--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,127 @@
+(footprint "HV Small Silk"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bb4e43a5-0ab4-459c-b8be-b32e77367c11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HV Small Silk"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7538623c-7122-48b7-91b2-397c0f7f79c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "HV Small Silk"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23f0045a-06de-4e6b-94f4-d660a3b95068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9bac112-da72-4662-ae07-b08b29db21a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bddd7ce2-1ba9-4487-9b25-12cbee931e35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.307984 -0.34981)
+		(end -0.107984 -0.09981)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20d4d75e-64ff-499d-b793-e6755da26ddb")
+	)
+	(fp_line
+		(start -0.197984 1.53019)
+		(end 0.312016 1.62019)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b1424969-392c-4936-9ff0-d10b8e4dccfc")
+	)
+	(fp_line
+		(start 0.012016 -0.10481)
+		(end 0.212016 0.14519)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb858b1f-9dfb-43c0-8e2f-1c0cb4a71f45")
+	)
+	(fp_poly
+		(pts
+			(xy -0.356411 -0.07407) (xy 0.807756 -0.69981) (xy 0.152912 1.686732) (xy 0.48761 1.483003) (xy -0.109026 2.37068)
+			(xy -0.327307 1.32293) (xy -0.094473 1.643076) (xy 0.182016 -0.088622) (xy -0.938494 0.508013) (xy -0.21089 -2.067706)
+			(xy 0.502162 -2.067706)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e92fb12f-fb78-4dbf-a8af-0b94e46bde7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1ef491a-33c3-4dcf-ac9c-a4f124615267")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
